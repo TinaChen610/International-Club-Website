@@ -75,7 +75,9 @@ nav .active {
  	 	right: 20px;
   		top: 50%;
   		transform: translateY(-50%);
-  		width: 140px;
+  		width: 100px;
+		border-radius: 10px;
+  		opacity: 0.9;   
 }
 
  footer    {
