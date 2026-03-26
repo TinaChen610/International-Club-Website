@@ -141,32 +141,35 @@ footer a {
 	border		 	: thin solid white;
 	/* height			: 300px;*/
 	box-shadow		: 0 8px 16px rgba(0, 0, 0, 0.3);
-	overflow: hidden;
-  	margin: 20px 0;
-  	padding: 20px;
-  	min-height: 290px;
+	margin: 16px 0;
+  	padding: 22px;
+ 	min-height: 260px;
+  	overflow: hidden;
 }
 
 .item p {
   padding: 0;
-  font-size: 1.3em;
-  line-height: 1.4;
+  margin: 0;
+  font-size: 1.15em;
+  line-height: 1.5;
+  max-width: 60%;
 }
 
 
 .activity {
-	width: 300px;
-  	height: 250px;
+	width: 240px;
+  	height: 200px;
   	float: right;
-  	margin-left: 20px;
+  	margin-left: 28px;
   	padding: 0;
+  	object-fit: cover;
 }
 
 .topic {
 	padding: 0;
- 	margin-bottom: 12px;
+ 	margin: 0 0 24px 0;
   	color: #0039e6;
-  	font-size: 2em;
+  	font-size: 2.2em;
 }
 
 p {
