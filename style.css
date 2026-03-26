@@ -3,12 +3,12 @@
 		margin-right: auto;
 		width       :960px;
 		background-color: #ffffff;
-	 	box-shadow: 0 0 20px rgba(0,0,0,0.05);
+	 	box-shadow: 0 0 15px rgba(0,0,0,0.05);
 	    }
 
 
 body {
-		background-color: #f5fbfb;
+		background-color: #eefafa;
 		color:#333;
 }
 
@@ -19,7 +19,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #e6f7f7;
+  background-color: #d4f4f4;
   padding-left : 285px;
   
 }
@@ -39,11 +39,12 @@ nav li a {
 }
 
 nav li a:hover:not(.active) {
-  background-color: #cceeee;
+  background-color: #8fd9d9;
 }
 
 nav .active {
-  background-color: #ff80ff;
+  background-color: #66c2c2;
+  color: white;
 }
 
 
@@ -55,7 +56,7 @@ nav .active {
 
 #winona {
 		position: relative;
-  		background-color: #5bb3b3;   
+  		background-color: #8fd9d9;   
   		height: 130px;
   		display: flex;
   		align-items: center;
@@ -66,7 +67,7 @@ nav .active {
   		font-style: italic;
   		font-size: 2em;
   		margin: 0;
-		color: white;
+		color: 003333;
 		letter-spacing: 1px;
 }
 
