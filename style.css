@@ -250,8 +250,14 @@ form {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-h2 {
-  margin-left: 20px;
+
+#welcome,
+#intro,
+.word,
+#his,
+.topic {
   margin-top: 24px;
+  margin-left: 20px;
+  padding-top: 0;
 }
 
