@@ -1,0 +1,217 @@
+ #container {
+		margin-left : auto;
+		margin-right: auto;
+		width       :960px;
+		background-color: #b3ffff;
+	    }
+
+
+body {
+		background-color: #e6ffff;
+}
+
+
+/* New Navigation bar style */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffff99;
+  padding-left : 285px;
+  
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family : verdana;
+  font-weight :bold;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ff80ff;
+}
+
+nav .active {
+  background-color: #ff80ff;
+}
+
+
+ header {
+		padding-top	:60px;
+		padding-left	:40px;
+		font-size	:1.5em;
+		background-image: url(images/club7.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		height		:130px;
+		font-style	:italic;
+ }
+
+#winona {
+		padding-top	:60px;
+		padding-left	:30px;
+		font-size	:1.2em;
+		background-image: url(images/club7.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		height		:130px;	
+}
+
+ footer    {
+		background-color:#e6e6e6;
+		text-align	:center;
+		padding		:5px;
+		font-style	:italic;
+ }
+
+footer a {
+	text-decoration : none;
+	color		: #0000ff;
+}
+
+* { margin :0px; }
+
+#welcome {
+	font-size		:2em;
+	padding			:20px;
+	
+}	
+
+#together {
+	width			:500px;
+	height			:300px;
+	padding-left		:20px;
+}
+
+#intro {
+	padding			:20px;
+	font-size		:2em;
+}
+
+#p1 {
+	padding-left		:20px;
+	padding-bottom		:100px;
+	font-size		:20px;	
+}
+
+#club {
+	width			:250px;
+	height			:250px;
+	float			:right;
+	padding			:10px;
+}
+
+.us {
+	padding			:20px;
+
+}
+
+.us a {
+	padding			:10px;
+	text-decoration		:none;
+	color			:#d966ff;
+}
+
+.info {
+	padding			:20px;
+}
+
+#aboutus {
+	height			:400px;
+	width			:530px;
+	float			:right;
+
+}
+
+.info a {
+	text-decoration		:none;
+	color			:#d966ff;
+}
+
+.item {
+	border		 	: thin solid white;
+	height			: 300px;
+	box-shadow		: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.activity {
+	padding			: 2em;
+	float			: right;
+}
+
+.topic {
+	padding			: 20px;
+	color			: #0039e6;
+	font-size		: 2em;
+}
+
+p {
+	padding			:25px;
+	font-size		:1.3em;
+}
+
+#his {
+	padding			:20px;
+	text-align		:center;
+}
+
+.photo {
+	height			:210px;
+	width			:310px;
+	padding-left		:6px;
+	padding-bottom		:10px;
+}
+
+.photo2 {
+	height			:370px;
+	width			:310px;
+	padding-left		:6px;
+	padding-bottom		:20px;
+}
+
+.word {
+	font-size		:2.4em;
+	padding			:20px;
+	text-align		:center;
+	color			:black;
+}
+
+#type {
+	padding			:20px;
+	font-weight		:bold;
+	font-size		:1.7em;
+	font-style		:italic;
+}
+
+form {
+	padding-left		:30px;
+	padding-bottom		:20px;
+	font-style		:italic;
+	font-weight		:bold;
+
+}
+
+#button2 {
+  background-color: #ffb366; 
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
