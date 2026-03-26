@@ -141,19 +141,32 @@ footer a {
 	border		 	: thin solid white;
 	/* height			: 300px;* /
 	box-shadow		: 0 8px 16px rgba(0, 0, 0, 0.3);
-	overflow		: auto;
+	overflow: hidden;
+  	margin: 20px 0;
+  	padding: 20px;
+  	min-height: 290px;
+}
+
+.item p {
+  padding: 0;
+  font-size: 1.3em;
+  line-height: 1.4;
 }
 
 
 .activity {
-	padding			: 2em;
-	float			: right;
+	width: 300px;
+  	height: 250px;
+  	float: right;
+  	margin-left: 20px;
+  	padding: 0;
 }
 
 .topic {
-	padding			: 20px;
-	color			: #0039e6;
-	font-size		: 2em;
+	padding: 0;
+ 	margin-bottom: 12px;
+  	color: #0039e6;
+  	font-size: 2em;
 }
 
 p {
