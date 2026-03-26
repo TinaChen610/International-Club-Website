@@ -57,13 +57,26 @@ nav .active {
  }
 
 #winona {
-		padding-top	:60px;
-		padding-left	:30px;
-		font-size	:1.2em;
-		background-image: url(images/club7.jpg);
-		background-position: right;
-		background-repeat: no-repeat;
-		height		:130px;	
+		position: relative;
+  		background-color: #a8d5d3;   
+  		height: 130px;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;     	
+}
+
+#winona h1 {
+  font-style: italic;
+  font-size: 2em;
+  margin: 0;
+}
+
+#winona img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 140px;
 }
 
  footer    {
