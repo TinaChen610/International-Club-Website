@@ -250,13 +250,8 @@ form {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
-#welcome,
-#intro,
-.word,
-#his,
-.topic,
-.us {
-  margin-top: 24px !important;
-  margin-left: 20px !important;
+h2 {
+  margin-left: 20px;
+  margin-top: 24px;
 }
+
