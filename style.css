@@ -2,12 +2,14 @@
 		margin-left : auto;
 		margin-right: auto;
 		width       :960px;
-		background-color: #b3ffff;
+		background-color: #ffffff;
+	 	box-shadow: 0 0 20px rgba(0,0,0,0.05);
 	    }
 
 
 body {
-		background-color: #e6ffff;
+		background-color: #f5fbfb;
+		color:#333;
 }
 
 
@@ -17,7 +19,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffff99;
+  background-color: #e6f7f7;
   padding-left : 285px;
   
 }
@@ -37,7 +39,7 @@ nav li a {
 }
 
 nav li a:hover:not(.active) {
-  background-color: #ff80ff;
+  background-color: #cceeee;
 }
 
 nav .active {
@@ -53,7 +55,7 @@ nav .active {
 
 #winona {
 		position: relative;
-  		background-color: #a8d5d3;   
+  		background-color: #5bb3b3;   
   		height: 130px;
   		display: flex;
   		align-items: center;
@@ -61,17 +63,19 @@ nav .active {
 }
 
 #winona h1 {
-  font-style: italic;
-  font-size: 2em;
-  margin: 0;
+  		font-style: italic;
+  		font-size: 2em;
+  		margin: 0;
+		color: white;
+		letter-spacing: 1px;
 }
 
 #winona img {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 140px;
+  		position: absolute;
+ 	 	right: 20px;
+  		top: 50%;
+  		transform: translateY(-50%);
+  		width: 140px;
 }
 
  footer    {
@@ -153,6 +157,8 @@ footer a {
   	padding: 22px;
  	min-height: 260px;
   	overflow: hidden;
+	background-color: #ffffff;
+  	border-radius: 12px;
 }
 
 .item p {
