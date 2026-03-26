@@ -139,8 +139,9 @@ footer a {
 
 .item {
 	border		 	: thin solid white;
-	height			: 300px;
+	/* height			: 300px;* /
 	box-shadow		: 0 8px 16px rgba(0, 0, 0, 0.3);
+	overflow		: auto;
 }
 
 
