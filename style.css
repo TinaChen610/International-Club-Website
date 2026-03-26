@@ -250,3 +250,12 @@ form {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+#welcome,
+#intro,
+.word,
+#his,
+.topic,
+.us {
+  margin: 24px 0 0 20px;  /* 上 右 下 左 */
+}
