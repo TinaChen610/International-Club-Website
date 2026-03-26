@@ -46,12 +46,7 @@ nav .active {
 
 
  header {
-		padding-top	:60px;
-		padding-left	:40px;
 		font-size	:1.5em;
-		background-image: url(images/club7.jpg);
-		background-position: right;
-		background-repeat: no-repeat;
 		height		:130px;
 		font-style	:italic;
  }
